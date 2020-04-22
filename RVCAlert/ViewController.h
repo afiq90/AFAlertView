@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RVCAlertView.h"
+#import "AFAlertView.h"
 
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIButton* showButton;
-@property (strong, nonatomic) RVCAlertView* alertView;
+@property (strong, nonatomic) AFAlertView* alertView;
 
 @end
 

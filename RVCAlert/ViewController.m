@@ -20,7 +20,7 @@
 }
 
 -(void)loadAlertView {
-    self.alertView = [RVCAlertView shareView];
+    self.alertView = [AFAlertView shareView];
     self.alertView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     
     self.alertView.cancelBtnBlock = ^{

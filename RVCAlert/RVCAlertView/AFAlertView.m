@@ -6,14 +6,14 @@
 //  Copyright © 2020 Afiq Hamdan. All rights reserved.
 //
 
-#import "RVCAlertView.h"
+#import "AFAlertView.h"
 
-@implementation RVCAlertView
+@implementation AFAlertView
 
-+(RVCAlertView*)shareView {
++(AFAlertView*)shareView {
     
     // load nib
-    RVCAlertView *rVCAlertView =  [[[NSBundle mainBundle] loadNibNamed:@"RVCAlertView"
+    AFAlertView *rVCAlertView =  [[[NSBundle mainBundle] loadNibNamed:@"RVCAlertView"
                                                                  owner:self
                                                                options:nil] objectAtIndex: 0];
     rVCAlertView.parentView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];

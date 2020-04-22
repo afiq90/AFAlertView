@@ -15,7 +15,7 @@
 		420D9843244FB16000B0317D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420D9841244FB16000B0317D /* LaunchScreen.storyboard */; };
 		420D9846244FB16000B0317D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 420D9845244FB16000B0317D /* main.m */; };
 		420D984E244FB19700B0317D /* RVCAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420D984D244FB19700B0317D /* RVCAlertView.xib */; };
-		420D9851244FB1A800B0317D /* RVCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420D9850244FB1A800B0317D /* RVCAlertView.m */; };
+		420D9851244FB1A800B0317D /* AFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420D9850244FB1A800B0317D /* AFAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		420D9844244FB16000B0317D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		420D9845244FB16000B0317D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		420D984D244FB19700B0317D /* RVCAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RVCAlertView.xib; sourceTree = "<group>"; };
-		420D984F244FB1A800B0317D /* RVCAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVCAlertView.h; sourceTree = "<group>"; };
-		420D9850244FB1A800B0317D /* RVCAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVCAlertView.m; sourceTree = "<group>"; };
+		420D984F244FB1A800B0317D /* AFAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAlertView.h; sourceTree = "<group>"; };
+		420D9850244FB1A800B0317D /* AFAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				420D984D244FB19700B0317D /* RVCAlertView.xib */,
-				420D984F244FB1A800B0317D /* RVCAlertView.h */,
-				420D9850244FB1A800B0317D /* RVCAlertView.m */,
+				420D984F244FB1A800B0317D /* AFAlertView.h */,
+				420D9850244FB1A800B0317D /* AFAlertView.m */,
 			);
 			path = RVCAlertView;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420D9851244FB1A800B0317D /* RVCAlertView.m in Sources */,
+				420D9851244FB1A800B0317D /* AFAlertView.m in Sources */,
 				420D983B244FB15F00B0317D /* ViewController.m in Sources */,
 				420D9835244FB15F00B0317D /* AppDelegate.m in Sources */,
 				420D9846244FB16000B0317D /* main.m in Sources */,

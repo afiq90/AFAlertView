@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RVCAlertView : UIView
+@interface AFAlertView : UIView
 
 typedef void(^cancelButtonTapped)(void);
 typedef void(^okButtonTapped)(NSInteger tag);
@@ -24,7 +24,7 @@ typedef void(^okButtonTapped)(NSInteger tag);
 @property (weak, nonatomic) IBOutlet UIButton *cancelButton;
 @property (weak, nonatomic) IBOutlet UIButton *okButton;
 
-+(RVCAlertView*)shareView;
++(AFAlertView*)shareView;
 -(void)presentView:(UIViewController*)vc;
 -(void)dimissView;
 
