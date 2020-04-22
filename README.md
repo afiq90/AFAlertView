@@ -1,5 +1,5 @@
 # AFAlertView
-Customizable alert view written on obj-c
+Customizable alert view written in obj-c
 
 <img src="https://github.com/afiq90/AFAlertView/blob/master/preview.png" width="400px" height="700px">
 
