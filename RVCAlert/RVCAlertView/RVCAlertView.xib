@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RVCAlertView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HZH-Qx-JhP">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zZh-hP-Pu1">
+                            <rect key="frame" x="10" y="323" width="394" height="250"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Easy PIN aasdsadsdd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWK-8m-SFJ">
+                                    <rect key="frame" x="10" y="10" width="175" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNE-Nh-j6a">
+                                    <rect key="frame" x="10" y="50.5" width="374" height="109.5"/>
+                                    <string key="text">lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl lkasjdklajsdlkjasdalsdl</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2F4-Ep-goj">
+                                    <rect key="frame" x="10" y="180" width="374" height="60"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYa-fd-Xdv">
+                                            <rect key="frame" x="0.0" y="0.0" width="177" height="60"/>
+                                            <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <state key="normal" title="Cancel"/>
+                                            <connections>
+                                                <action selector="cancelButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="A4Z-N5-Aj9"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPs-4l-NHF">
+                                            <rect key="frame" x="197" y="0.0" width="177" height="60"/>
+                                            <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <state key="normal" title="OK"/>
+                                            <connections>
+                                                <action selector="okButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="z7p-Oh-Exm"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="Mwi-8j-afc"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="fNE-Nh-j6a" firstAttribute="leading" secondItem="zZh-hP-Pu1" secondAttribute="leading" constant="10" id="9Kd-zm-LE5"/>
+                                <constraint firstAttribute="trailing" secondItem="2F4-Ep-goj" secondAttribute="trailing" constant="10" id="AJk-vh-X4y"/>
+                                <constraint firstItem="2F4-Ep-goj" firstAttribute="top" secondItem="fNE-Nh-j6a" secondAttribute="bottom" constant="20" id="Le6-qj-RjK"/>
+                                <constraint firstItem="2F4-Ep-goj" firstAttribute="leading" secondItem="zZh-hP-Pu1" secondAttribute="leading" constant="10" id="R6i-q3-trl"/>
+                                <constraint firstAttribute="bottom" secondItem="2F4-Ep-goj" secondAttribute="bottom" constant="10" id="bDR-2R-haw"/>
+                                <constraint firstItem="XWK-8m-SFJ" firstAttribute="leading" secondItem="zZh-hP-Pu1" secondAttribute="leading" constant="10" id="gGw-VR-zBV"/>
+                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="250" id="gzF-dP-VNI"/>
+                                <constraint firstItem="XWK-8m-SFJ" firstAttribute="top" secondItem="zZh-hP-Pu1" secondAttribute="top" constant="10" id="rPq-Qw-ggw"/>
+                                <constraint firstItem="fNE-Nh-j6a" firstAttribute="top" secondItem="XWK-8m-SFJ" secondAttribute="bottom" constant="20" id="t96-ik-ahV"/>
+                                <constraint firstAttribute="trailing" secondItem="fNE-Nh-j6a" secondAttribute="trailing" constant="10" id="vmW-ZM-dlQ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstItem="zZh-hP-Pu1" firstAttribute="leading" secondItem="HZH-Qx-JhP" secondAttribute="leading" constant="10" id="A9X-RM-mWd"/>
+                        <constraint firstItem="zZh-hP-Pu1" firstAttribute="centerX" secondItem="HZH-Qx-JhP" secondAttribute="centerX" id="D7u-Yt-yih"/>
+                        <constraint firstItem="zZh-hP-Pu1" firstAttribute="centerY" secondItem="HZH-Qx-JhP" secondAttribute="centerY" id="L9g-PS-Xpg"/>
+                        <constraint firstAttribute="trailing" secondItem="zZh-hP-Pu1" secondAttribute="trailing" constant="10" id="zia-Kp-949"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HZH-Qx-JhP" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="9xv-TX-EHH"/>
+                <constraint firstItem="HZH-Qx-JhP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ah3-Xk-KK5"/>
+                <constraint firstItem="HZH-Qx-JhP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="oHI-YC-qeu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="HZH-Qx-JhP" secondAttribute="trailing" id="vRX-q6-mhw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cancelButton" destination="TYa-fd-Xdv" id="QVh-HZ-wCQ"/>
+                <outlet property="mainAlertView" destination="zZh-hP-Pu1" id="Rhl-YC-wCM"/>
+                <outlet property="messageLabel" destination="fNE-Nh-j6a" id="XpE-MA-hF9"/>
+                <outlet property="okButton" destination="nPs-4l-NHF" id="vEg-AC-TuX"/>
+                <outlet property="parentView" destination="HZH-Qx-JhP" id="GpG-rl-ugQ"/>
+                <outlet property="titleLabel" destination="XWK-8m-SFJ" id="kNS-PU-aMB"/>
+            </connections>
+            <point key="canvasLocation" x="-136.23188405797103" y="98.4375"/>
+        </view>
+    </objects>
+</document>
