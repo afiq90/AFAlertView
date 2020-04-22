@@ -1,6 +1,9 @@
 # AFAlertView
 Customizable alert view written on obj-c
 
+![alt text](https://github.com/afiq90/AFAlertView/blob/master/preview.png "Preview")
+
+
 #How to use
 ```
 self.alertView = [RVCAlertView shareView];
